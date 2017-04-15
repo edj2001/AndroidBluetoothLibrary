@@ -1,0 +1,2 @@
+# AndroidBluetoothLibrary
+Needed for BikeDashAndroid
