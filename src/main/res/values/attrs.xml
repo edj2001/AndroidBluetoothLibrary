@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DataText">
+        <attr name="yellowLimit" format="string" />
+        <attr name="customFont" format="string" />
+        <attr name="varName" format="string" />
+        <attr name="unitFieldReference" format="reference" />
+        <attr name="unitField2Reference" format="reference" />
+        <attr name="Alarm1" format="string" />
+        <attr name="Alarm2" format="string" />
+        <attr name="Alarm3" format="string" />
+        <attr name="Alarm4" format="string" />
+        <attr name="dataTimeout" format="integer"/>
+    </declare-styleable>
+
+</resources>
