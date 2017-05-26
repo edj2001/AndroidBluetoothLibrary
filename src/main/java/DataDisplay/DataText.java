@@ -6,13 +6,15 @@ import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.CountDownTimer;
+import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
-import android.widget.TextView;
 
 import com.grandpaj.library2.R;
 import com.grandpaj.library2.bluetooth.logger.Log;
 
 import static android.R.color.black;
+
+//import android.widget.TextView;
 
 /*
 TODO: 12/6/2016 Create a SimpleArrayMap of all these objects with the key as the variable name so that we can just match them
@@ -23,7 +25,7 @@ with incoming data.
  * Created by Linda on 11/23/2016.
  */
 
-public class DataText extends TextView {
+public class DataText extends AppCompatTextView {
 
     private CountDownTimer dataUpdateLostTimer;
     private DataRanges displayRanges;
