@@ -6,6 +6,7 @@ import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.CountDownTimer;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
@@ -60,7 +61,9 @@ public class DataText extends AppCompatTextView {
         Drawable mDrawable = getBackground();
         ColorDrawable colorDrawable = (ColorDrawable) mDrawable;
         if (colorDrawable != null) {
-            currentBackgroundColor = colorDrawable.getColor();
+            //currentBackgroundColor = colorDrawable.getColor();
+            //support library version
+            //currentBackgroundColor = ContextCompat.getColor(context, R.color.my_color);
         }
         //currentBackgroundColor = setBackgroundColor(R.color.colorAccent);
         //setBackgroundColor(black);

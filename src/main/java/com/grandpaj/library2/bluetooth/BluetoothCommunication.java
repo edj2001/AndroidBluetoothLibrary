@@ -185,7 +185,7 @@ public class BluetoothCommunication extends Fragment {
      * @param resId a string resource ID
      */
     private void setStatus(int resId) {
-        FragmentActivity activity = getActivity();
+/*        FragmentActivity activity = getActivity();
         if (null == activity) {
             return;
         }
@@ -194,7 +194,7 @@ public class BluetoothCommunication extends Fragment {
             return;
         }
         actionBar.setSubtitle(resId);
-    }
+*/    }
 
     /**
      * Updates the status on the action bar.
@@ -202,7 +202,7 @@ public class BluetoothCommunication extends Fragment {
      * @param subTitle status
      */
     private void setStatus(CharSequence subTitle) {
-        FragmentActivity activity = getActivity();
+/*        FragmentActivity activity = getActivity();
         if (null == activity) {
             return;
         }
@@ -211,7 +211,7 @@ public class BluetoothCommunication extends Fragment {
             return;
         }
         actionBar.setSubtitle(subTitle);
-    }
+*/    }
 
     /**
      * The Handler that gets information back from the BluetoothChatService
